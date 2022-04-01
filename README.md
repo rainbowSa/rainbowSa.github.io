@@ -1,5 +1,5 @@
 # Sito portfolio di Samantha
-Profilo personale - Personal profile
+Profilo personale - Personal profile<br>
 Questo è un sito dove raccolgo tutti i miei progetti e racconto chi sono.
 
 ## Le tecnologie che ho usato sono:
