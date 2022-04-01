@@ -1,5 +1,12 @@
-# rainbowSa.github.io
+# Sito portfolio di Samantha
 Profilo personale - Personal profile
+Questo è un sito dove raccolgo tutti i miei progetti e racconto chi sono.
+
+## Le tecnologie che ho usato sono:
+- queste
+
+### Ringrazio per le librerie:
+- queste
 
 Seguimi sui social/Follow me:<br>
 GitHub: https://github.com/rainbowSa<br>
