@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #ffb727;
+  color: #FFB2E6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffc85a;
+  color: #FFB2E6;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffb727;
+  background: #F6A2ED;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #ffc550;
+  background: #ffceff;
   color: #fff;
 }
 .back-to-top.active {
@@ -64,14 +64,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 80px;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(239, 218, 245, 0.8);
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
   height: 60px;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(239, 218, 245, 0.8);
 }
 
 /*--------------------------------------------------------------
@@ -98,14 +98,15 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  color: #fff;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 1px;
+  text-shadow: #111;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #f1c0e8 ;
+  color: #3C0146 ;
 }
 .navbar .dropdown ul {
   display: block;
@@ -272,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -370,7 +371,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #3b434a;
+  color: #F6A2ED;
   position: relative;
   z-index: 2;
 }
@@ -460,7 +461,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #3b434a;
+  color: #EC92F3;
   text-transform: uppercase;
 }
 .about .content ul {
@@ -478,7 +479,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #ffb727;
+  color: #FFB2E6;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -555,7 +556,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ffb727;
+  background-color: #FFB2E6;
 }
 
 /*--------------------------------------------------------------
@@ -579,7 +580,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  color: #F6A2ED;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -874,103 +875,6 @@ section {
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
-}
-.pricing h4 {
-  font-size: 36px;
-  color: #ffb727;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-.pricing h4 sup {
-  font-size: 20px;
-  top: -12px;
-  left: -3px;
-}
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-.pricing ul li {
-  padding-bottom: 16px;
-}
-.pricing ul i {
-  color: #ffb727;
-  font-size: 18px;
-  padding-right: 4px;
-}
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
-}
-.pricing .btn-buy {
-  background: #ffb727;
-  display: inline-block;
-  padding: 8px 35px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-.pricing .btn-buy:hover {
-  background: #ffc85a;
-}
-.pricing .featured h3 {
-  color: #fff;
-  background: #ffb727;
-}
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #ffb727;
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
