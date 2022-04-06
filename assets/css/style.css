@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3C0146 ;
+  color: #8447FF;
 }
 .navbar .dropdown ul {
   display: block;
@@ -293,15 +293,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
+  margin: 0 0 20px 0;
+  font-size: 84px;
   font-family: "Satisfy", serif;
   color: #fff;
+  font-weight: 900;
+  
+  
 }
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -567,12 +570,12 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3b434a;
+  color: #8447FF;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #82909c;
+  border-left: 2px solid #461873;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -580,7 +583,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #F6A2ED;
+  color: #C468FF;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -609,7 +612,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #82909c;
+  border: 2px solid #461873;
 }
 
 /*--------------------------------------------------------------
