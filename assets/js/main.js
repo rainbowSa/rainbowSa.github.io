@@ -176,9 +176,9 @@
   }
 
   /**
-   * Testimonials slider
+   * Interessi slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.interessi-slider', {
     speed: 600,
     loop: true,
     autoplay: {
