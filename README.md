@@ -13,7 +13,8 @@ Questo è un sito dove raccolgo tutti i miei progetti e racconto chi sono.
 - Daniela Mangeruca per la Favicon e la foto di bg nell'Header
 - Foto di bg footer e hobbies fatte con Iphone SE
 
-Seguimi sui social/Follow me:<br>
+
+## Seguimi sui social/Follow me:<br>
 GitHub: https://github.com/rainbowSa<br>
 Twitch: https://www.twitch.tv/rainbow__sa<br>
 Linkedin: https://www.linkedin.com/in/samantha-mangeruca/<br>
