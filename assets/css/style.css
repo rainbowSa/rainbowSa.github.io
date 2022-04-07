@@ -618,7 +618,7 @@ section {
 /*--------------------------------------------------------------
 # My Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.hobbies .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -628,7 +628,7 @@ section {
   text-align: center;
   border: 1px solid #fff;
 }
-.services .icon {
+.hobbies .icon {
   margin: 0 auto 20px auto;
   padding-top: 17px;
   display: inline-block;
@@ -638,29 +638,29 @@ section {
   height: 72px;
   background: #fff4df;
 }
-.services .icon i {
+.hobbies .icon i {
   font-size: 36px;
   line-height: 1;
   color: #ffb727;
 }
-.services .title {
+.hobbies .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.services .title a {
+.hobbies .title a {
   color: #111;
   transition: 0.3s;
 }
-.services .description {
+.hobbies .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
-.services .icon-box:hover {
+.hobbies .icon-box:hover {
   border-color: #ffb727;
 }
-.services .icon-box:hover .title a {
+.hobbies .icon-box:hover .title a {
   color: #ffb727;
 }
 
@@ -883,37 +883,37 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
-.contact .info-box {
+.contatti .info-box {
   color: #444444;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
 }
-.contact .info-box i.bx {
+.contatti .info-box i.bx {
   font-size: 24px;
   color: #ffb727;
   border-radius: 50%;
   padding: 15px;
   background: #fff6e4;
 }
-.contact .info-box h3 {
+.contatti .info-box h3 {
   font-size: 20px;
   color: #777777;
   font-weight: 700;
   margin: 10px 0;
 }
-.contact .info-box p {
+.contatti .info-box p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
-.contact .social-links {
+.contatti .social-links {
   margin-top: 15px;
   display: flex;
   justify-content: center;
 }
-.contact .social-links a {
+.contatti .social-links a {
   font-size: 18px;
   display: inline-block;
   color: #687683;
@@ -924,23 +924,23 @@ section {
   border-radius: 50px;
   border: 1px solid #dde1e4;
 }
-.contact .social-links a:hover {
+.contatti .social-links a:hover {
   color: #fff;
   border-color: #ffb727;
   background: #ffb727;
 }
-.contact .php-email-form {
+.contatti .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 27px;
 }
-.contact .php-email-form .validate {
+.contatti .php-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
-.contact .php-email-form .error-message {
+.contatti .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -948,10 +948,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.contatti .php-email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.contatti .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -959,13 +959,13 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.contatti .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.contatti .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -977,21 +977,21 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contatti .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+.contatti .php-email-form input::focus, .contact .php-email-form textarea::focus {
   background-color: #ffb727;
 }
-.contact .php-email-form input {
+.contatti .php-email-form input {
   padding: 10px 15px;
 }
-.contact .php-email-form textarea {
+.contatti .php-email-form textarea {
   padding: 12px 15px;
 }
-.contact .php-email-form button[type=submit] {
+.contatti.php-email-form button[type=submit] {
   background: #ffb727;
   border: 0;
   padding: 10px 24px;
@@ -999,7 +999,7 @@ section {
   transition: 0.4s;
   border-radius: 5px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contatti.php-email-form button[type=submit]:hover {
   background: #ffc85a;
 }
 @-webkit-keyframes animate-loading {
