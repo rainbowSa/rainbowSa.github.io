@@ -931,18 +931,18 @@ section {
   border-color: #c227ff;
   background: #c227ff;
 }
-.contatti .php-email-form {
+.contatti .email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 27px;
 }
-.contatti .php-email-form .validate {
+.contatti .email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
-.contatti .php-email-form .error-message {
+.contatti .email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -950,10 +950,10 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contatti .php-email-form .error-message br + br {
+.contatti .email-form .error-message br + br {
   margin-top: 25px;
 }
-.contatti .php-email-form .sent-message {
+.contatti .email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -961,13 +961,13 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.contatti .php-email-form .loading {
+.contatti .email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contatti .php-email-form .loading:before {
+.contatti .email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -979,31 +979,21 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contatti .php-email-form input, .contact .php-email-form textarea {
+.contatti .email-form input, .contact .email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-.contatti .php-email-form input::focus, .contact .php-email-form textarea::focus {
+.contatti .email-form input::focus, .contact .email-form textarea::focus {
   background-color: #ffb727;
 }
-.contatti .php-email-form input {
+.contatti .email-form input {
   padding: 10px 15px;
 }
-.contatti .php-email-form textarea {
+.contatti .email-form textarea {
   padding: 12px 15px;
 }
-.contatti.php-email-form button[type=submit] {
-  background: #ffb727;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-.contatti.php-email-form button[type=submit]:hover {
-  background: #ffc85a;
-}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
